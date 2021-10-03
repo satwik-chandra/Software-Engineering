@@ -22,12 +22,17 @@ public class LowestCommonAncestor {
  
     // Finds the path from root node to given root of the tree.
     int findLCA(int n1, int n2) {
+
+        if(n1 == 0 || n2== 0 ) return 0;
+
         path1.clear();
         path2.clear();
         return findLCAInternal(root, n1, n2);
     }
  
     private int findLCAInternal(Node root, int n1, int n2) {
+
+        
  
         if (!findPath(root, n1, path1) || !findPath(root, n2, path2)) {
             System.out.println((path1.size() > 0) ? "n1 is present" : "n1 is missing");

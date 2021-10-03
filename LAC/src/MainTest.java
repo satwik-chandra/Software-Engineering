@@ -2,7 +2,8 @@
 
 public class MainTest {
     public static void main(String[] args) throws Exception {
-        LowestCommonAncestor tree = new LowestCommonAncestor();
+      
+        /*  LowestCommonAncestor tree = new LowestCommonAncestor();
         tree.root = new Node(1);
         tree.root.left = new Node(2);
         tree.root.right = new Node(3);
@@ -18,8 +19,14 @@ public class MainTest {
         System.out.println("LCA(3, 4): " + tree.findLCA(3,4));
         System.out.println("LCA(2, 4): " + tree.findLCA(2,4));
         System.out.println("LCA(8, 9): " + tree.findLCA(8,9));
-        System.out.println("LCA(0, 0): " + tree.findLCA(0,0));
-     
+        System.out.println("LCA(7, 7): " + tree.findLCA(7,7));
+        
+         */
+        
+      
+ 
+    
+    
     }
 }
  
