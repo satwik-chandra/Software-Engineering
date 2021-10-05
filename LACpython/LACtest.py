@@ -28,10 +28,10 @@ class TestStringMethods(unittest.TestCase):
 
 
     def test_duplicate_values(self):
-        self.assertEqual(Node.findLCA(self.root,4,5),2)
-        self.assertEqual(Node.findLCA(self.root,4,6),1)
-        self.assertEqual(Node.findLCA(self.root,3,4),1)
-        self.assertEqual(Node.findLCA(self.root,2,4),2)
+        self.assertEqual(Node.findLCA(self.root,4,4),4)
+        self.assertEqual(Node.findLCA(self.root,6,6),6)
+        self.assertEqual(Node.findLCA(self.root,8,8),8)
+        self.assertEqual(Node.findLCA(self.root,1,1),1)
 
 
 if __name__ == "__main__":
