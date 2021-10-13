@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
  
-// A Binary Tree node
+// A Binary Tree node   
 class Node {
     int data;
     Node left, right;
